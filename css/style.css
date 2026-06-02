@@ -321,6 +321,31 @@ iframe {
 .cover-contact {
   background-image: url(../images/cover-contact-l.webp);
 }
+.location {
+  display: flex;
+  gap: 2rem;
+}
+.location-info {
+  width: 32%;
+}
+.location-info .info th {
+  padding-left: 2rem;
+}
+.location-map {
+  width: 64%;
+}
+.email {
+  margin-bottom: 4rem;
+}
+.sns {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 0;
+}
+.sns-item {
+  flex: 1;
+}
 .item-big {
   grid-column: 1/3;
   grid-row: 1/3;
